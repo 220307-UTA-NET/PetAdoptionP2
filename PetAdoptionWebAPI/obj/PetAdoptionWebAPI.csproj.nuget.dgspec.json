@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\learnings\\c sharp\\repos\\PetAdoptionAngular\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj": {}
+    "D:\\Revature\\PetAdoptionP2\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\learnings\\c sharp\\repos\\PetAdoptionAngular\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj": {
+    "D:\\Revature\\PetAdoptionP2\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\learnings\\c sharp\\repos\\PetAdoptionAngular\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj",
+        "projectUniqueName": "D:\\Revature\\PetAdoptionP2\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj",
         "projectName": "PetAdoptionWebAPI",
-        "projectPath": "D:\\learnings\\c sharp\\repos\\PetAdoptionAngular\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj",
+        "projectPath": "D:\\Revature\\PetAdoptionP2\\PetAdoptionWebAPI\\PetAdoptionWebAPI.csproj",
         "packagesPath": "C:\\Users\\zhixi\\.nuget\\packages\\",
-        "outputPath": "D:\\learnings\\c sharp\\repos\\PetAdoptionAngular\\PetAdoptionWebAPI\\obj\\",
+        "outputPath": "D:\\Revature\\PetAdoptionP2\\PetAdoptionWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zhixi\\AppData\\Roaming\\NuGet\\NuGet.Config",

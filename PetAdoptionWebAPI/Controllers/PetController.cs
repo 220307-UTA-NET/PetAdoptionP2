@@ -32,7 +32,7 @@ public class PetController : ControllerBase
     {
         if (id != pet.PetId)
         {
-            return BadRequest();
+            return BadRequest("two different id in url and body");
         }
         _petRepository.UpdatePet(pet);
         return Ok(pet);
