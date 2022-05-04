@@ -1,0 +1,10 @@
+<div *ngIf="selectedPet">
+    <h2>{{selectedPet.name | uppercase }} Details</h2>
+    <div>
+        <label for="selectedPet-name">selectedPet Name: </label>
+        <input id="selectedPet-name" [(ngModel)]="selectedPet.name" placeholder="selectedPet name" />
+    </div>
+    <div><span>Description: </span>{{selectedPet.description}}</div>
+    <div><img [src]="selectedPet.image" width="300" height="200" /></div>
+</div>
+<button type="button" (click)="goBack()">go back</button>
