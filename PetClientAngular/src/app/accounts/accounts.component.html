@@ -1,0 +1,18 @@
+<div class="form-group">
+    <label for="account">Account</label>
+    <select class="form-control" id="account" required>
+        <option *ngFor="let account of accounts" [value]="account.userName">{{account.userName}}</option>
+    </select>
+    <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            [(ngModel)]="accountLoggedIn.password"
+            required
+            minlength="6"
+            #password="ngModel"
+          />
+</div>
+<app-login></app-login>
+<app-register></app-register>

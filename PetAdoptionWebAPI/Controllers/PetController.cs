@@ -25,7 +25,14 @@ public class PetController : ControllerBase
     public IActionResult Post([FromBody] Pet pet)
     {
         _petRepository.CreatePet(pet);
-        return Ok(pet);
+        var result = _petRepository.Pets.FirstOrDefault(a => a.Name == pet.Name && a.AccountId == pet.AccountId);
+        if (result == null)
+        {
+            return NotFound();
+        } else
+        {
+            return Ok(result);
+        }
     }
     [HttpPut("{id}")]
     public IActionResult Put(int id, [FromBody] Pet pet)

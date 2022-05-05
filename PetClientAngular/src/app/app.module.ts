@@ -9,6 +9,9 @@ import { PetDetailComponent } from './pet-detail/pet-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AccountsComponent } from './accounts/accounts.component';
+import { RegisterComponent } from './accounts/register/register.component';
+import { LoginComponent } from './accounts/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     PetsComponent,
     PetDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountsComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

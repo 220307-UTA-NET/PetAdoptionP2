@@ -31,7 +31,14 @@ namespace PetAdoptionWebAPI.Controllers
         public IActionResult Post([FromBody] Account account)
         {
             _accountRepository.CreateAccount(account);
-            return Ok(account);
+            var result = _accountRepository.Accounts.FirstOrDefault(a => a.UserName == account.UserName && a.Password == account.Password);
+            if (result == null)
+            {
+                return NotFound();
+            } else
+            {
+                return Ok(result);
+            }
         }
 
         [HttpPut("{id}")]
