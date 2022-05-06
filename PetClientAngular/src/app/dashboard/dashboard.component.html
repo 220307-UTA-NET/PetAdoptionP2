@@ -1,4 +1,8 @@
 <h2>My Pets</h2>
+<google-map 
+    height="400px" 
+    width="100%">
+</google-map>
 <div class="pets-menu">
     <a *ngFor="let pet of pets" routerLink="/pet/{{pet.petId}}">
         {{pet.name}}
